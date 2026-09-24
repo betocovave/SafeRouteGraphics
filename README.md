@@ -4,10 +4,7 @@ Los seis programas numerados conservan sus puntos de entrada. Requieren Python, 
 
 ## Revisión realizada
 
-- Se retiraron los botones personalizados Guardar PNG y sus callbacks de los seis programas. Se mantienen pausa/reanudación, pesos, reinicio y navegación de alternativas.
-- Fondo blanco, tipografía uniforme, figuras numeradas, mapas con relación espacial 1:1, tablas comparativas y notas metodológicas. Los resultados están fuera de la geometría de los mapas.
 - Se conserva la precisión de los pesos durante los cálculos; el redondeo se limita a las etiquetas. Esto evita que una diagonal redondeada a 1.414 km resulte menor que la heurística euclidiana de A*.
-- La animación limpia la ruta final al volver al primer fotograma.
 - Pareto indica el número real de rutas únicas y distingue la no dominancia en distancia y exposición del tiempo codificado por color. Su comparación numérica tolera diferencias menores de 1e-10; la selección con clic usa distancia en pantalla.
 - La exposición por arista es una aproximación por punto medio: R(punto medio) × longitud; no una integración exacta ni una probabilidad de delito. Los textos ya reflejan esta distinción.
 
